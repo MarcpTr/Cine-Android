@@ -1,0 +1,24 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/movieCard"
+    android:layout_width="124dp"
+    android:layout_height="220dp"
+    card_view:cardCornerRadius="6dp"
+    card_view:cardElevation="10dp"
+    android:layout_margin="8dp" >
+        <ImageView
+        android:id="@+id/filmPoster"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:id="@+id/filmTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_gravity="bottom"
+        android:background="#8c000000"
+        android:textColor="#ffe3e3e3"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+</androidx.cardview.widget.CardView>

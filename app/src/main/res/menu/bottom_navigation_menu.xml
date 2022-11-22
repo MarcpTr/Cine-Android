@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/principal"
+        android:enabled="true"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Principal"/>
+    <item
+        android:id="@+id/busqueda"
+        android:enabled="true"
+        android:icon="@drawable/search"
+        android:title="Busqueda"/>
+    <item
+        android:id="@+id/listas"
+        android:enabled="true"
+        android:icon="@drawable/library"
+        android:title="Listas"/>
+    <item
+        android:id="@+id/perfil"
+        android:enabled="true"
+        android:icon="@drawable/signin64"
+        android:title="Perfil"/>
+</menu>
